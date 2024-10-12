@@ -1,0 +1,65 @@
+  
+  
+  .body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+    body{
+      background-color: gainsboro;
+    }
+  ul {
+    list-style: none;
+  }
+
+  main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap:1rem;
+   }
+   .personal, .skills, .languages{
+    padding: 1rem;
+    line-height: 2;
+  
+   }
+   .left, .experience, .education {
+    background-color: #fff;
+   }
+.left-image {
+    position:relative;
+}
+.left-image img{
+  width: 50% heigh
+}
+.left-image h2{
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+
+
+.experience, .education {
+  line-height: 2;
+  padding: 2rem
+}
+.experience, .education{
+  margin: 2rem 0;
+}
+
+.date{
+  color: green;
+}
+
+.current{
+  background-color: green;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 3px;
+}
+
+
+.education ul{
+  margin: 2rem 0;
+}
